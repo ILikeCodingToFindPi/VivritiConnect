@@ -4,7 +4,7 @@ import pandas as pd
 import os
 app = Flask(__name__)
 
-openai.api_key = 'sk-proj-5mlkKHx2VA3k0Iq9hQ6iT3BlbkFJGvwcapJswEEDv5pONobS'
+openai.api_key = ''
 
 
 data = pd.read_csv('Vivriti_Details.csv')
